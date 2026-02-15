@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="IDN Property - Bali's Premier Property Agency. Discover luxury villas, penthouses, and beachfront properties in Bali's most prestigious locations.">
+    <meta name="keywords" content="Bali real estate, luxury villas, property investment, Seminyak, Canggu, Ubud, Uluwatu">
+    <title>IDN Property - Bali's Premier Property Agency</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y=".9em" font-size="90" fill="%2310B981">I</text></svg>">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Preload key resources -->
+    <link rel="preload" href="https://images.unsplash.com/photo-1602391833977-358a52198938?w=1920&h=1080&fit=crop&q=80" as="image">
+</head>
+<body>
+    
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">I</a>
+            
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="properties.html" class="nav-link">Properties</a></li>
+                <li><a href="areas.html" class="nav-link">Areas</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="services.html" class="nav-link">Services</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <ul class="nav-menu">
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="properties.html" class="nav-link">Properties</a></li>
+            <li><a href="areas.html" class="nav-link">Areas</a></li>
+            <li><a href="about.html" class="nav-link">About</a></li>
+            <li><a href="services.html" class="nav-link">Services</a></li>
+            <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg" data-parallax="0.5"></div>
+        <div class="hero-overlay"></div>
+        
+        <div class="hero-content">
+            <div class="hero-subtitle">BALI'S PREMIER PROPERTY AGENCY</div>
+            <h1 class="hero-title">
+                Discover Your Perfect
+                <span class="gradient-text">Tropical Paradise</span>
+            </h1>
+            <p class="hero-description">
+                From luxury beachfront villas to serene jungle retreats, we curate Bali's most exceptional properties for discerning investors and lifestyle seekers.
+            </p>
+            <div style="margin-top: 2rem; opacity: 0; animation: slideUp 1s ease 1.1s forwards;">
+                <a href="properties.html" class="btn btn-primary" style="margin-right: 1rem;">Explore Properties</a>
+                <a href="contact.html" class="btn btn-outline">Schedule Consultation</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item scale-in">
+                    <span class="stat-number" data-count="150">150+</span>
+                    <div class="stat-label">Properties Sold</div>
+                </div>
+                <div class="stat-item scale-in">
+                    <span class="stat-number" data-count="50">$50M+</span>
+                    <div class="stat-label">Transaction Volume</div>
+                </div>
+                <div class="stat-item scale-in">
+                    <span class="stat-number" data-count="98">98%</span>
+                    <div class="stat-label">Client Satisfaction</div>
+                </div>
+                <div class="stat-item scale-in">
+                    <span class="stat-number" data-count="6">6</span>
+                    <div class="stat-label">Premium Areas</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Properties Section -->
+    <section class="section">
+        <div class="container">
+            <div class="text-center fade-in">
+                <h2>Featured <span class="gradient-text">Properties</span></h2>
+                <p class="large-text" style="margin-bottom: 3rem; opacity: 0.9;">
+                    Handpicked luxury properties that define Bali's premium real estate market
+                </p>
+            </div>
+
+            <div class="grid grid-3">
+                <div class="property-card" data-category="villa">
+                    <img src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=400&h=300&fit=crop&q=80" alt="Villa Harmony" class="property-image" loading="lazy">
+                    <div class="property-content">
+                        <div class="property-price">$1,200,000</div>
+                        <h3 class="property-title">Villa Harmony</h3>
+                        <div class="property-location">Canggu, Bali</div>
+                        <div class="property-details">
+                            <span>4 Beds</span>
+                            <span>4 Baths</span>
+                            <span>450 sqm</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="property-card" data-category="penthouse">
+                    <img src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=400&h=300&fit=crop&q=80" alt="Oceanview Penthouse" class="property-image" loading="lazy">
+                    <div class="property-content">
+                        <div class="property-price">$890,000</div>
+                        <h3 class="property-title">Oceanview Penthouse</h3>
+                        <div class="property-location">Seminyak, Bali</div>
+                        <div class="property-details">
+                            <span>3 Beds</span>
+                            <span>3 Baths</span>
+                            <span>280 sqm</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="property-card" data-category="beachfront">
+                    <img src="https://images.unsplash.com/photo-1520637836862-4d197d17c55a?w=400&h=300&fit=crop&q=80" alt="Beachfront Retreat" class="property-image" loading="lazy">
+                    <div class="property-content">
+                        <div class="property-price">$2,500,000</div>
+                        <h3 class="property-title">Beachfront Retreat</h3>
+                        <div class="property-location">Uluwatu, Bali</div>
+                        <div class="property-details">
+                            <span>5 Beds</span>
+                            <span>5 Baths</span>
+                            <span>600 sqm</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="property-card" data-category="villa">
+                    <img src="https://images.unsplash.com/photo-1540541338287-41700207dee6?w=400&h=300&fit=crop&q=80" alt="Jungle Sanctuary" class="property-image" loading="lazy">
+                    <div class="property-content">
+                        <div class="property-price">$650,000</div>
+                        <h3 class="property-title">Jungle Sanctuary</h3>
+                        <div class="property-location">Ubud, Bali</div>
+                        <div class="property-details">
+                            <span>3 Beds</span>
+                            <span>3 Baths</span>
+                            <span>380 sqm</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="property-card" data-category="villa">
+                    <img src="https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?w=400&h=300&fit=crop&q=80" alt="Sunset Villa" class="property-image" loading="lazy">
+                    <div class="property-content">
+                        <div class="property-price">$1,800,000</div>
+                        <h3 class="property-title">Sunset Villa</h3>
+                        <div class="property-location">Canggu, Bali</div>
+                        <div class="property-details">
+                            <span>4 Beds</span>
+                            <span>4 Baths</span>
+                            <span>520 sqm</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="property-card" data-category="villa">
+                    <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=400&h=300&fit=crop&q=80" alt="The Pavilion" class="property-image" loading="lazy">
+                    <div class="property-content">
+                        <div class="property-price">$3,200,000</div>
+                        <h3 class="property-title">The Pavilion</h3>
+                        <div class="property-location">Seminyak, Bali</div>
+                        <div class="property-details">
+                            <span>6 Beds</span>
+                            <span>6 Baths</span>
+                            <span>800 sqm</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center" style="margin-top: 3rem;">
+                <a href="properties.html" class="btn btn-primary">View All Properties</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Areas Preview Section -->
+    <section class="section">
+        <div class="container">
+            <div class="text-center fade-in">
+                <h2>Premium <span class="gradient-text">Locations</span></h2>
+                <p class="large-text" style="margin-bottom: 3rem; opacity: 0.9;">
+                    Explore Bali's most coveted neighborhoods where luxury meets tropical paradise
+                </p>
+            </div>
+
+            <div class="grid grid-3">
+                <div class="area-card slide-in-left">
+                    <img src="https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?w=400&h=400&fit=crop&q=80" alt="Seminyak" class="area-image">
+                    <div class="area-overlay">
+                        <h3 class="area-name">Seminyak</h3>
+                        <div class="area-price">$800K - $5M+</div>
+                        <p class="area-description">Sophisticated beachfront lifestyle with world-class dining, luxury shopping, and vibrant nightlife.</p>
+                    </div>
+                </div>
+
+                <div class="area-card scale-in">
+                    <img src="https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=400&h=400&fit=crop&q=80" alt="Canggu" class="area-image">
+                    <div class="area-overlay">
+                        <h3 class="area-name">Canggu</h3>
+                        <div class="area-price">$600K - $3M+</div>
+                        <p class="area-description">Surf culture meets modern luxury in this rapidly developing coastal paradise.</p>
+                    </div>
+                </div>
+
+                <div class="area-card slide-in-right">
+                    <img src="https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?w=400&h=400&fit=crop&q=80" alt="Ubud" class="area-image">
+                    <div class="area-overlay">
+                        <h3 class="area-name">Ubud</h3>
+                        <div class="area-price">$400K - $2M+</div>
+                        <p class="area-description">Spiritual sanctuary surrounded by lush rice terraces and wellness retreats.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center" style="margin-top: 3rem;">
+                <a href="areas.html" class="btn btn-outline">Explore All Areas</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section">
+        <div class="container">
+            <div class="text-center fade-in">
+                <h2>What Our <span class="gradient-text">Clients Say</span></h2>
+                <p class="large-text" style="margin-bottom: 3rem; opacity: 0.9;">
+                    Trusted by international investors and lifestyle seekers worldwide
+                </p>
+            </div>
+
+            <div class="grid grid-3">
+                <div class="testimonial-card fade-in">
+                    <p class="testimonial-text">
+                        "IDN Property made our dream of owning a Bali villa a reality. Their expertise in the local market and attention to detail were exceptional."
+                    </p>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&q=80" alt="James Morrison" class="testimonial-avatar">
+                        <div>
+                            <div class="testimonial-name">James Morrison</div>
+                            <div class="testimonial-location">Sydney, Australia</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card fade-in">
+                    <p class="testimonial-text">
+                        "Professional, reliable, and truly understands luxury real estate. They guided us through every step of the investment process."
+                    </p>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1494790108755-2616c59f5fe5?w=100&h=100&fit=crop&q=80" alt="Sarah Chen" class="testimonial-avatar">
+                        <div>
+                            <div class="testimonial-name">Sarah Chen</div>
+                            <div class="testimonial-location">Singapore</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card fade-in">
+                    <p class="testimonial-text">
+                        "Outstanding service and market knowledge. IDN Property found us the perfect beachfront property that exceeded our expectations."
+                    </p>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&q=80" alt="Marcus Weber" class="testimonial-avatar">
+                        <div>
+                            <div class="testimonial-name">Marcus Weber</div>
+                            <div class="testimonial-location">Zurich, Switzerland</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section">
+        <div class="container">
+            <div class="text-center fade-in">
+                <h2>Ready to Find Your <span class="gradient-text">Dream Property?</span></h2>
+                <p class="large-text" style="margin-bottom: 2rem; opacity: 0.9;">
+                    Let our expert team guide you through Bali's premium real estate market
+                </p>
+                <div>
+                    <a href="properties.html" class="btn btn-primary" style="margin-right: 1rem;">Browse Properties</a>
+                    <a href="contact.html" class="btn btn-outline">Get In Touch</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>IDN Property</h3>
+                    <p>Bali's premier property agency specializing in luxury villas, penthouses, and investment opportunities across the island's most prestigious locations.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <p><a href="properties.html">Properties</a></p>
+                    <p><a href="areas.html">Areas</a></p>
+                    <p><a href="services.html">Services</a></p>
+                    <p><a href="about.html">About Us</a></p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <p>Jl. Petitenget No. 88<br>Seminyak, Bali 80361</p>
+                    <p><a href="tel:+6281234567890">+62 812 3456 7890</a></p>
+                    <p><a href="mailto:hello@idnproperty.com">hello@idnproperty.com</a></p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Areas We Serve</h3>
+                    <p>Seminyak • Canggu • Ubud</p>
+                    <p>Uluwatu • Sanur • Nusa Dua</p>
+                    <p>And premium locations across Bali</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 IDN Property. All rights reserved. | Designed by <a href="https://wingfieldgemini.github.io" class="footer-credit" target="_blank" rel="noopener">WingfieldGemini</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+    
+</body>
+</html>
