@@ -6,7 +6,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
 function initializeApp() {
     // Initialize all premium features
-    createCustomCursor();
     initLoadingScreen();
     initScrollProgress();
     initNavigation();
@@ -520,8 +519,6 @@ function handleResize() {
     // Remove cursor on mobile
     if (window.innerWidth <= 768 && cursor) {
         cursor.remove();
-    } else if (window.innerWidth > 768 && !cursor) {
-        createCustomCursor();
     }
 }
 

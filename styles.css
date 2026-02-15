@@ -46,7 +46,6 @@ body {
   line-height: 1.6;
   color: var(--white);
   background-color: var(--black);
-  cursor: none;
   overflow-x: hidden;
 }
 
