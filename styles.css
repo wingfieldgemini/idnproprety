@@ -336,8 +336,11 @@ h3 {
 }
 
 .mobile-menu .nav-menu {
+  display: flex;
   flex-direction: column;
   gap: 3rem;
+  list-style: none;
+  padding: 0;
 }
 
 .mobile-menu .nav-link {
