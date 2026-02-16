@@ -17,9 +17,15 @@ function initializeApp() {
     initSmoothScroll();
     
     // Hide loading screen after everything is loaded
-    window.addEventListener('load', () => {
+    if (document.readyState === 'complete') {
         setTimeout(hideLoadingScreen, 1000);
-    });
+    } else {
+        window.addEventListener('load', () => {
+            setTimeout(hideLoadingScreen, 1000);
+        });
+    }
+    // Failsafe: always hide loading screen after 4 seconds
+    setTimeout(hideLoadingScreen, 4000);
 }
 
 // ===== CUSTOM CURSOR =====
